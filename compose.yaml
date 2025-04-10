@@ -13,7 +13,7 @@ services:
       WORDPRESS_DB_NAME: wordpress
 
   mysql:
-    image: mysql:8.4
+    image: mysql
     environment:
       MYSQL_DATABASE: wordpress
       MYSQL_ROOT_PASSWORD: "StrongerPassword123!"
